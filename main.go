@@ -15,6 +15,7 @@ func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		log.Println("Received request")
 		fmt.Fprintf(w, "Hello GitOpsi!")
+		fmt.Fprintf(w, "Hello GitOps!!2")
 	})
 
 	log.Println("Start server")
