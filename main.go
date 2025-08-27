@@ -1,4 +1,4 @@
-package main
+iackage main
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		log.Println("Received request")
-		fmt.Fprintf(w, "Hello Container!!")
+		fmt.Fprintf(w, "Hello GitOpsi!")
 	})
 
 	log.Println("Start server")
