@@ -16,6 +16,7 @@ func main() {
 		log.Println("Received request")
 		fmt.Fprintf(w, "Hello GitOpsi!")
 		fmt.Fprintf(w, "Hello GitOps!!2")
+		fmt.Fprintf(w, "Hello GitOps!!!3")
 	})
 
 	log.Println("Start server")
